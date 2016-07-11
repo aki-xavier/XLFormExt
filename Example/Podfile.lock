@@ -1,0 +1,41 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - PureLayout (3.0.2)
+  - Specta (1.0.5)
+  - XLForm (3.2.0)
+  - XLFormExt (0.1.0):
+    - PureLayout
+    - XLForm
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - XLFormExt (from `../`)
+
+EXTERNAL SOURCES:
+  XLFormExt:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
+  XLFormExt: 365c2287860b97fdec2a0ba51510961fc71970c4
+
+PODFILE CHECKSUM: 95c6f7fc5997fce73ad121a56148fc73ba840bd7
+
+COCOAPODS: 1.0.1
