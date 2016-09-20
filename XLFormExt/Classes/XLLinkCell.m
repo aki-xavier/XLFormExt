@@ -82,7 +82,7 @@
 }
 
 + (CGFloat)formDescriptorCellHeightForRowDescriptor:(XLFormRowDescriptor *)rowDescriptor {
-	return 44;
+	return 50;
 }
 
 @end
