@@ -97,6 +97,31 @@
 			if ([self notNull:r[@"textFieldFont"]]) {
 				[row.cellConfigAtConfigure setObject:r[@"textFieldFont"] forKey:@"textField.font"];
 			}
+			if ([self notNull:r[@"titleLabelColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"titleLabelColor"] forKey:@"titleLabel.textColor"];
+			}
+			if ([self notNull:r[@"titleLabelFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"titleLabelFont"] forKey:@"titleLabel.font"];
+			}
+			if ([self notNull:r[@"unitLabelColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"unitLabelColor"] forKey:@"unitLabel.textColor"];
+			}
+			if ([self notNull:r[@"unitLabelFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"unitLabelFont"] forKey:@"unitLabel.font"];
+			}
+			if ([self notNull:r[@"rightLabelColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"rightLabelColor"] forKey:@"rightLabel.textColor"];
+			}
+			if ([self notNull:r[@"rightLabelFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"rightLabelFont"] forKey:@"rightLabel.font"];
+			}
+			if ([self notNull:r[@"segmentedControlColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"segmentedControlColor"] forKey:@"segmentedControl.tintColor"];
+			}
+			if ([self notNull:r[@"switchControlColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"switchControlColor"] forKey:@"switchControl.tintColor"];
+			}
+			
 			[section addFormRow:row];
 		}
 	}
