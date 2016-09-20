@@ -76,6 +76,27 @@
 			if ([self notNull:r[@"valueTransformer"]]) {
 				row.valueTransformer = r[@"valueTransformer"];
 			}
+			if ([self notNull:r[@"tintColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"tintColor"] forKey:@"tintColor"];
+			}
+			if ([self notNull:r[@"textLabelColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"textLabelColor"] forKey:@"textLabel.textColor"];
+			}
+			if ([self notNull:r[@"textLabelFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"textLabelFont"] forKey:@"textLabel.font"];
+			}
+			if ([self notNull:r[@"detailTextLabelColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"detailTextLabelColor"] forKey:@"detailTextLabel.textColor"];
+			}
+			if ([self notNull:r[@"detailTextLabelFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"detailTextLabelFont"] forKey:@"detailTextLabel.font"];
+			}
+			if ([self notNull:r[@"textFieldColor"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"textFieldColor"] forKey:@"textField.textColor"];
+			}
+			if ([self notNull:r[@"textFieldFont"]]) {
+				[row.cellConfigAtConfigure setObject:r[@"textFieldFont"] forKey:@"textField.font"];
+			}
 			[section addFormRow:row];
 		}
 	}
