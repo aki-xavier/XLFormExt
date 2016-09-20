@@ -4,7 +4,7 @@
 @implementation XLLinkCell
 
 - (void)configure {
-
+	[super configure];
 }
 
 - (void)update {
